@@ -1,0 +1,17 @@
+@import '/node_modules/tabulator-tables/dist/css/tabulator_bootstrap5.min.css';
+/* Write your global styles here, in PostCSS syntax */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	/* Reference name */
+	font-family: 'NotoSansThai';
+	/* For multiple files use commas, ex: url(), url(), ... */
+	src: url('/Fonts/NotoSansThai/NotoSansThai-VariableFont_wdth,wght.ttf');
+}
+
+html,
+body {
+	@apply bg-gradient-320 h-screen font-['NotoSansThai'] leading-4;
+}
